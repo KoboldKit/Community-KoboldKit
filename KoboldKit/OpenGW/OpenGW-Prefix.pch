@@ -5,4 +5,8 @@
  */
 
 #ifdef __OBJC__
+<<<<<<< HEAD
+=======
+#import <Foundation/Foundation.h>
+>>>>>>> refs/heads/KK-Free-master
 #endif

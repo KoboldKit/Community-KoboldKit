@@ -911,19 +911,33 @@ NSString* const CodingKeyForMutableNumber = @"KKMutableNumber:value";
 
 +(id) numberWithInteger:(NSInteger)number
 {
+<<<<<<< HEAD
 #if TARGET_OS_IPHONE
 	return [[KKInt32Number alloc] initWithInt32:number];
 #else
 	return [[KKInt64Number alloc] initWithInt64:number];
+=======
+#if __LP64__
+	return [[KKInt64Number alloc] initWithInt64:number];
+#else
+	return [[KKInt32Number alloc] initWithInt32:number];
+>>>>>>> refs/heads/KK-Free-master
 #endif
 }
 
 +(id) numberWithLong:(long)number
 {
+<<<<<<< HEAD
 #if TARGET_OS_IPHONE
 	return [[KKInt32Number alloc] initWithInt32:number];
 #else
 	return [[KKInt64Number alloc] initWithInt64:number];
+=======
+#if __LP64__
+	return [[KKInt64Number alloc] initWithInt64:number];
+#else
+	return [[KKInt32Number alloc] initWithInt32:number];
+>>>>>>> refs/heads/KK-Free-master
 #endif
 }
 
@@ -949,19 +963,33 @@ NSString* const CodingKeyForMutableNumber = @"KKMutableNumber:value";
 
 +(id) numberWithUnsignedInteger:(NSUInteger)number
 {
+<<<<<<< HEAD
 #if TARGET_OS_IPHONE
 	return [[KKInt32Number alloc] initWithInt32:number];
 #else
 	return [[KKInt64Number alloc] initWithInt64:number];
+=======
+#if __LP64__
+	return [[KKInt64Number alloc] initWithInt64:number];
+#else
+	return [[KKInt32Number alloc] initWithInt32:number];
+>>>>>>> refs/heads/KK-Free-master
 #endif
 }
 
 +(id) numberWithUnsignedLong:(unsigned long)number
 {
+<<<<<<< HEAD
 #if TARGET_OS_IPHONE
 	return [[KKInt32Number alloc] initWithInt32:number];
 #else
 	return [[KKInt64Number alloc] initWithInt64:number];
+=======
+#if __LP64__
+	return [[KKInt64Number alloc] initWithInt64:number];
+#else
+	return [[KKInt32Number alloc] initWithInt32:number];
+>>>>>>> refs/heads/KK-Free-master
 #endif
 }
 
@@ -1002,19 +1030,33 @@ NSString* const CodingKeyForMutableNumber = @"KKMutableNumber:value";
 
 -(id) initWithInteger:(NSInteger)number
 {
+<<<<<<< HEAD
 #if TARGET_OS_IPHONE
 	return [[KKInt32Number alloc] initWithInt32:number];
 #else
 	return [[KKInt64Number alloc] initWithInt64:number];
+=======
+#if __LP64__
+	return [[KKInt64Number alloc] initWithInt64:number];
+#else
+	return [[KKInt32Number alloc] initWithInt32:number];
+>>>>>>> refs/heads/KK-Free-master
 #endif
 }
 
 -(id) initWithLong:(long)number
 {
+<<<<<<< HEAD
 #if TARGET_OS_IPHONE
 	return [[KKInt32Number alloc] initWithInt32:number];
 #else
 	return [[KKInt64Number alloc] initWithInt64:number];
+=======
+#if __LP64__
+	return [[KKInt64Number alloc] initWithInt64:number];
+#else
+	return [[KKInt32Number alloc] initWithInt32:number];
+>>>>>>> refs/heads/KK-Free-master
 #endif
 }
 
@@ -1040,19 +1082,33 @@ NSString* const CodingKeyForMutableNumber = @"KKMutableNumber:value";
 
 -(id) initWithUnsignedInteger:(NSUInteger)number
 {
+<<<<<<< HEAD
 #if TARGET_OS_IPHONE
 	return [[KKInt32Number alloc] initWithInt32:number];
 #else
 	return [[KKInt64Number alloc] initWithInt64:number];
+=======
+#if __LP64__
+	return [[KKInt64Number alloc] initWithInt64:number];
+#else
+	return [[KKInt32Number alloc] initWithInt32:number];
+>>>>>>> refs/heads/KK-Free-master
 #endif
 }
 
 -(id) initWithUnsignedLong:(unsigned long)number
 {
+<<<<<<< HEAD
 #if TARGET_OS_IPHONE
 	return [[KKInt32Number alloc] initWithInt32:number];
 #else
 	return [[KKInt64Number alloc] initWithInt64:number];
+=======
+#if __LP64__
+	return [[KKInt64Number alloc] initWithInt64:number];
+#else
+	return [[KKInt32Number alloc] initWithInt32:number];
+>>>>>>> refs/heads/KK-Free-master
 #endif
 }
 

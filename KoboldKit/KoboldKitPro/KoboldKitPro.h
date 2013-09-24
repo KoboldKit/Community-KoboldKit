@@ -8,3 +8,7 @@
 
 // headers
 #import "KKProVersion.h"
+<<<<<<< HEAD
+=======
+#import "../OpenGW/OpenGW.h"
+>>>>>>> refs/heads/KK-Free-master

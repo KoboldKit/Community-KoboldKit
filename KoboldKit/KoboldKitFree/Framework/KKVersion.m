@@ -9,5 +9,9 @@
 
 NSString* koboldKitVersion()
 {
+<<<<<<< HEAD
 	return @"Kobold Kit™ v7.0.0";
+=======
+	return @"Kobold Kit™ v7.0.3";
+>>>>>>> refs/heads/KK-Free-master
 }
