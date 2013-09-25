@@ -32,11 +32,7 @@ SYNTHESIZE_SINGLETON_FOR_CLASS(IOSVersion);
 		version = (float)(ch - '0');
 		
 		float multiplier = 0.1f;
-<<<<<<< HEAD
-		unsigned int vLength = [versionStr length];
-=======
 		unsigned int vLength = (unsigned int)[versionStr length];
->>>>>>> refs/heads/KK-Free-master
 		for(unsigned int i = 2; i < vLength; i++)
 		{
 			ch = [versionStr characterAtIndex:i];

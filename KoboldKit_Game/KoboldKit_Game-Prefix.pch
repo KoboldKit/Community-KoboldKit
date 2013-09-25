@@ -9,8 +9,5 @@
 	#import <KoboldKitPro/KoboldKitPro.h>
 	#import <KoboldKitCommunity/KoboldKitCommunity.h>
 	#import <KoboldKitExternal/KoboldKitExternal.h>
-<<<<<<< HEAD
-=======
 	#import <OpenGW/OpenGW.h>
->>>>>>> refs/heads/KK-Free-master
 #endif

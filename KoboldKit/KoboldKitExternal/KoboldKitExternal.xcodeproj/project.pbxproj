@@ -121,14 +121,11 @@
 		DC3AEFE917CBE3F80002416A /* OALTools.m in Sources */ = {isa = PBXBuildFile; fileRef = DC3AEF9117CBE3F80002416A /* OALTools.m */; };
 		DC3AEFEA17CBE3F80002416A /* ObjectALMacros.h in Headers */ = {isa = PBXBuildFile; fileRef = DC3AEF9217CBE3F80002416A /* ObjectALMacros.h */; };
 		DC3AEFEB17CBE3F80002416A /* SynthesizeSingleton.h in Headers */ = {isa = PBXBuildFile; fileRef = DC3AEF9317CBE3F80002416A /* SynthesizeSingleton.h */; };
-<<<<<<< HEAD
-=======
 		DC68B3E317ECB1FE00563A30 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DCDD2DD41769FD0A00F307CD /* XCTest.framework */; };
 		DC68B3E417ECB1FE00563A30 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DCDD2DAB1769FD0A00F307CD /* Foundation.framework */; };
 		DC68B3E517ECB1FE00563A30 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DCDD2DAF1769FD0A00F307CD /* UIKit.framework */; };
 		DC68B3EB17ECB1FE00563A30 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DC68B3E917ECB1FE00563A30 /* InfoPlist.strings */; };
 		DC68B3ED17ECB1FE00563A30 /* libKoboldKitExternal_a_Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = DC68B3EC17ECB1FE00563A30 /* libKoboldKitExternal_a_Tests.m */; };
->>>>>>> refs/heads/KK-Free-master
 		DC8B544C17CBE9E100F95CBC /* LuaImport.h in Headers */ = {isa = PBXBuildFile; fileRef = DC8B544B17CBE96C00F95CBC /* LuaImport.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		DC8B548617CBEABD00F95CBC /* lapi.c in Sources */ = {isa = PBXBuildFile; fileRef = DC8B544D17CBEABC00F95CBC /* lapi.c */; };
 		DC8B548717CBEABD00F95CBC /* lapi.c in Sources */ = {isa = PBXBuildFile; fileRef = DC8B544D17CBEABC00F95CBC /* lapi.c */; };
@@ -223,8 +220,6 @@
 		DCBD9B5817C0C8A5008C4F3B /* KoboldKitExternal.h in Headers */ = {isa = PBXBuildFile; fileRef = DCBD9A0117C0C8A5008C4F3B /* KoboldKitExternal.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
-<<<<<<< HEAD
-=======
 /* Begin PBXContainerItemProxy section */
 		DC68B3EF17ECB1FE00563A30 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -235,7 +230,6 @@
 		};
 /* End PBXContainerItemProxy section */
 
->>>>>>> refs/heads/KK-Free-master
 /* Begin PBXCopyFilesBuildPhase section */
 		DC484C69178C418C0067DAA4 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
@@ -340,14 +334,11 @@
 		DC484C6B178C418C0067DAA4 /* libKoboldKitExternal.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libKoboldKitExternal.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		DC484CE3178C465E0067DAA4 /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/libz.dylib; sourceTree = DEVELOPER_DIR; };
 		DC4DE928176CA4EB003E4087 /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
-<<<<<<< HEAD
-=======
 		DC68B3E217ECB1FE00563A30 /* libKoboldKitExternal.a Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "libKoboldKitExternal.a Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DC68B3E817ECB1FE00563A30 /* libKoboldKitExternal.a Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "libKoboldKitExternal.a Tests-Info.plist"; sourceTree = "<group>"; };
 		DC68B3EA17ECB1FE00563A30 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		DC68B3EC17ECB1FE00563A30 /* libKoboldKitExternal_a_Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = libKoboldKitExternal_a_Tests.m; sourceTree = "<group>"; };
 		DC68B3EE17ECB1FE00563A30 /* libKoboldKitExternal.a Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "libKoboldKitExternal.a Tests-Prefix.pch"; sourceTree = "<group>"; };
->>>>>>> refs/heads/KK-Free-master
 		DC8B544B17CBE96C00F95CBC /* LuaImport.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LuaImport.h; sourceTree = "<group>"; };
 		DC8B544D17CBEABC00F95CBC /* lapi.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = lapi.c; sourceTree = "<group>"; };
 		DC8B544E17CBEABC00F95CBC /* lapi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = lapi.h; sourceTree = "<group>"; };
@@ -436,8 +427,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-<<<<<<< HEAD
-=======
 		DC68B3DF17ECB1FE00563A30 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -448,7 +437,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
->>>>>>> refs/heads/KK-Free-master
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -708,8 +696,6 @@
 			name = "Other Frameworks";
 			sourceTree = "<group>";
 		};
-<<<<<<< HEAD
-=======
 		DC68B3E617ECB1FE00563A30 /* libKoboldKitExternal.a Tests */ = {
 			isa = PBXGroup;
 			children = (
@@ -729,7 +715,6 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
->>>>>>> refs/heads/KK-Free-master
 		DCBD98F217C0C8A5008C4F3B /* Documentation */ = {
 			isa = PBXGroup;
 			children = (
@@ -763,10 +748,7 @@
 				DCBD9A0017C0C8A5008C4F3B /* KoboldKitExternal-Prefix.pch */,
 				DCD9C88917C105F400535043 /* External */,
 				DCBD98F217C0C8A5008C4F3B /* Documentation */,
-<<<<<<< HEAD
-=======
 				DC68B3E617ECB1FE00563A30 /* libKoboldKitExternal.a Tests */,
->>>>>>> refs/heads/KK-Free-master
 				DCDD2DAA1769FD0A00F307CD /* Frameworks */,
 				DCDD2DA91769FD0A00F307CD /* Products */,
 			);
@@ -777,10 +759,7 @@
 			children = (
 				DC484C43178C40BB0067DAA4 /* KoboldKitExternal.framework */,
 				DC484C6B178C418C0067DAA4 /* libKoboldKitExternal.a */,
-<<<<<<< HEAD
-=======
 				DC68B3E217ECB1FE00563A30 /* libKoboldKitExternal.a Tests.xctest */,
->>>>>>> refs/heads/KK-Free-master
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -930,8 +909,6 @@
 			productReference = DC484C6B178C418C0067DAA4 /* libKoboldKitExternal.a */;
 			productType = "com.apple.product-type.library.static";
 		};
-<<<<<<< HEAD
-=======
 		DC68B3E117ECB1FE00563A30 /* libKoboldKitExternal.a Tests */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = DC68B3F317ECB1FE00563A30 /* Build configuration list for PBXNativeTarget "libKoboldKitExternal.a Tests" */;
@@ -950,7 +927,6 @@
 			productReference = DC68B3E217ECB1FE00563A30 /* libKoboldKitExternal.a Tests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
->>>>>>> refs/heads/KK-Free-master
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -959,14 +935,11 @@
 			attributes = {
 				LastUpgradeCheck = 0500;
 				ORGANIZATIONNAME = "Steffen Itterheim";
-<<<<<<< HEAD
-=======
 				TargetAttributes = {
 					DC68B3E117ECB1FE00563A30 = {
 						TestTargetID = DC484C6A178C418C0067DAA4;
 					};
 				};
->>>>>>> refs/heads/KK-Free-master
 			};
 			buildConfigurationList = DCDD2DA31769FD0A00F307CD /* Build configuration list for PBXProject "KoboldKitExternal" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -983,10 +956,7 @@
 			targets = (
 				DC484C6A178C418C0067DAA4 /* libKoboldKitExternal.a */,
 				DC484C42178C40BB0067DAA4 /* KoboldKitExternal.framework */,
-<<<<<<< HEAD
-=======
 				DC68B3E117ECB1FE00563A30 /* libKoboldKitExternal.a Tests */,
->>>>>>> refs/heads/KK-Free-master
 			);
 		};
 /* End PBXProject section */
@@ -999,8 +969,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-<<<<<<< HEAD
-=======
 		DC68B3E017ECB1FE00563A30 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -1009,7 +977,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
->>>>>>> refs/heads/KK-Free-master
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -1159,10 +1126,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-<<<<<<< HEAD
-/* End PBXSourcesBuildPhase section */
-
-=======
 		DC68B3DE17ECB1FE00563A30 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -1192,7 +1155,6 @@
 		};
 /* End PBXVariantGroup section */
 
->>>>>>> refs/heads/KK-Free-master
 /* Begin XCBuildConfiguration section */
 		DC484C62178C40BB0067DAA4 /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -1232,14 +1194,7 @@
 		DC484C88178C418D0067DAA4 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-<<<<<<< HEAD
-				ARCHS = (
-					armv7,
-					armv7s,
-				);
-=======
 				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
->>>>>>> refs/heads/KK-Free-master
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
@@ -1249,33 +1204,19 @@
 				PUBLIC_HEADERS_FOLDER_PATH = "include/$(PRODUCT_NAME)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-<<<<<<< HEAD
-				VALID_ARCHS = "armv7 armv7s";
-=======
 				VALID_ARCHS = "armv7 armv7s arm64";
->>>>>>> refs/heads/KK-Free-master
 			};
 			name = Debug;
 		};
 		DC484C89178C418D0067DAA4 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-<<<<<<< HEAD
-				ARCHS = (
-					armv7,
-					armv7s,
-				);
-=======
 				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
->>>>>>> refs/heads/KK-Free-master
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = KoboldKitExternal;
 				PUBLIC_HEADERS_FOLDER_PATH = "include/$(PRODUCT_NAME)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-<<<<<<< HEAD
-				VALID_ARCHS = "armv7 armv7s";
-=======
 				VALID_ARCHS = "armv7 armv7s arm64";
 			};
 			name = Release;
@@ -1323,7 +1264,6 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = iphoneos;
 				WRAPPER_EXTENSION = xctest;
->>>>>>> refs/heads/KK-Free-master
 			};
 			name = Release;
 		};
@@ -1350,10 +1290,6 @@
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_ENABLE_CPP_EXCEPTIONS = NO;
 				GCC_ENABLE_CPP_RTTI = NO;
-<<<<<<< HEAD
-				GCC_ENABLE_OBJC_EXCEPTIONS = NO;
-=======
->>>>>>> refs/heads/KK-Free-master
 				GCC_FAST_MATH = YES;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
@@ -1406,10 +1342,6 @@
 				GCC_C_LANGUAGE_STANDARD = c11;
 				GCC_ENABLE_CPP_EXCEPTIONS = NO;
 				GCC_ENABLE_CPP_RTTI = NO;
-<<<<<<< HEAD
-				GCC_ENABLE_OBJC_EXCEPTIONS = NO;
-=======
->>>>>>> refs/heads/KK-Free-master
 				GCC_FAST_MATH = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "KoboldKitExternal-Prefix.pch";
@@ -1454,8 +1386,6 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-<<<<<<< HEAD
-=======
 		DC68B3F317ECB1FE00563A30 /* Build configuration list for PBXNativeTarget "libKoboldKitExternal.a Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -1464,7 +1394,6 @@
 			);
 			defaultConfigurationIsVisible = 0;
 		};
->>>>>>> refs/heads/KK-Free-master
 		DCDD2DA31769FD0A00F307CD /* Build configuration list for PBXProject "KoboldKitExternal" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (

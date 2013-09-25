@@ -84,11 +84,7 @@ static NSCharacterSet* KKNonAsciiCharacterSet = nil;
 	newString = [self stringByDeletingNonAsciiCharacters];
 	newString = [newString stringByDeletingIllegalFileSystemCharacters];
 
-<<<<<<< HEAD
-	NSCharacterSet* illegalXcodeCharacters = [NSCharacterSet characterSetWithCharactersInString:@"!+~&'(),=@[]^`{}"];
-=======
 	NSCharacterSet* illegalXcodeCharacters = [NSCharacterSet characterSetWithCharactersInString:@"!+~&'(),=@[]^`{}#"];
->>>>>>> refs/heads/KK-Free-master
 	newString = [[newString componentsSeparatedByCharactersInSet:illegalXcodeCharacters] componentsJoinedByString:@""];
 
 	newString = [newString stringByTrimmingWhiteSpaceCharacters];

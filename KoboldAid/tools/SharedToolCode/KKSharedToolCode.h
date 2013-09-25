@@ -6,8 +6,6 @@
 //  Copyright (c) 2013 Steffen Itterheim. All rights reserved.
 //
 
-<<<<<<< HEAD
-=======
 // compatibility, prevent compile error
 typedef NSColor SKColor;
 
@@ -25,7 +23,6 @@ CGVectorMake(CGFloat dx, CGFloat dy)
 }
 
 
->>>>>>> refs/heads/KK-Free-master
 #import "KKToolConstants.h"
 #import "KKCopyFilesFilter.h"
 #import "KKToolDataSource.h"
@@ -36,9 +33,4 @@ CGVectorMake(CGFloat dx, CGFloat dy)
 #import "External/VTPG/VTPG_Common.h"
 #import "Framework/Scripting/KKLua.h"
 
-<<<<<<< HEAD
-// compatibility, prevent compile error
-typedef NSColor SKColor;
-=======
->>>>>>> refs/heads/KK-Free-master
 #import "Framework/Categories/Foundation/NSString+KoboldKit.h"

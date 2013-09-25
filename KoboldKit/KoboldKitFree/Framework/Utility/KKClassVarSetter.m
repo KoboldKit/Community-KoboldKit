@@ -42,15 +42,11 @@ static Class kMutableNumberClass;
 {
 	_type = KKIvarTypeUnknown;
 
-<<<<<<< HEAD
-	if ([_encoding hasPrefix:@"c"])
-=======
 	if ([_encoding hasPrefix:@"B"])
 	{
 		_type = KKIvarTypeBOOL;
 	}
 	else if ([_encoding hasPrefix:@"c"])
->>>>>>> refs/heads/KK-Free-master
 	{
 		_type = KKIvarTypeChar;
 	}
@@ -94,8 +90,6 @@ static Class kMutableNumberClass;
 	{
 		_type = KKIvarTypeString;
 	}
-<<<<<<< HEAD
-=======
 	
 	/*
 	if (_type == KKIvarTypeUnknown)
@@ -103,7 +97,6 @@ static Class kMutableNumberClass;
 		NSLog(@"KKIvarInfo: ivar '%@' has unsupported encoding '%@'", _name, _encoding);
 	}
 	 */
->>>>>>> refs/heads/KK-Free-master
 }
 
 -(void) setIvarInTarget:(id)target value:(id)value
@@ -118,13 +111,10 @@ static Class kMutableNumberClass;
 	{
 		switch (_type)
 		{
-<<<<<<< HEAD
-=======
 			case KKIvarTypeBOOL:
 				*((char*)ivarPointer) = [(KKMutableNumber*)value boolValue];
 				break;
 				
->>>>>>> refs/heads/KK-Free-master
 			case KKIvarTypeChar:
 				*((char*)ivarPointer) = [(KKMutableNumber*)value charValue];
 				break;

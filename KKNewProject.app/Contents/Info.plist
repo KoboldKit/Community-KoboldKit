@@ -3,11 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>BuildMachineOSBuild</key>
-<<<<<<< HEAD
-	<string>13A558</string>
-=======
 	<string>13A584</string>
->>>>>>> refs/heads/KK-Free-master
 	<key>CFBundleDevelopmentRegion</key>
 	<string>en</string>
 	<key>CFBundleExecutable</key>
@@ -31,19 +27,6 @@
 	<key>DTCompiler</key>
 	<string>com.apple.compilers.llvm.clang.1_0</string>
 	<key>DTPlatformBuild</key>
-<<<<<<< HEAD
-	<string>5A11386k</string>
-	<key>DTPlatformVersion</key>
-	<string>GM</string>
-	<key>DTSDKBuild</key>
-	<string>13A557</string>
-	<key>DTSDKName</key>
-	<string>macosx10.9</string>
-	<key>DTXcode</key>
-	<string>0500</string>
-	<key>DTXcodeBuild</key>
-	<string>5A11386k</string>
-=======
 	<string>5A1412</string>
 	<key>DTPlatformVersion</key>
 	<string>GM</string>
@@ -55,7 +38,6 @@
 	<string>0500</string>
 	<key>DTXcodeBuild</key>
 	<string>5A1412</string>
->>>>>>> refs/heads/KK-Free-master
 	<key>LSMinimumSystemVersion</key>
 	<string>10.8</string>
 	<key>NSHumanReadableCopyright</key>

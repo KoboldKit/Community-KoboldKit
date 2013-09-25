@@ -10,10 +10,7 @@
 typedef enum
 {
 	KKIvarTypeUnknown = 0,
-<<<<<<< HEAD
-=======
 	KKIvarTypeBOOL,
->>>>>>> refs/heads/KK-Free-master
 	KKIvarTypeChar,
 	KKIvarTypeUnsignedChar,
 	KKIvarTypeInt,

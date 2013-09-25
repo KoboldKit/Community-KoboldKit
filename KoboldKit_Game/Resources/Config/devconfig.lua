@@ -34,11 +34,7 @@ local config =
 	shouldCenterStats = NO,
 
 	-- additional Kobold Kit labels
-<<<<<<< HEAD
-	showsPhysicsShapes = YES,
-=======
 	showsPhysicsShapes = NO,
->>>>>>> refs/heads/KK-Free-master
 	showsNodeFrames = NO,
 	showsNodeAnchorPoints = NO,
 }

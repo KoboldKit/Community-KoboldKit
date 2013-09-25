@@ -192,8 +192,6 @@
 			remoteGlobalIDString = DC484C42178C40BB0067DAA4;
 			remoteInfo = KoboldKitExternal.framework;
 		};
-<<<<<<< HEAD
-=======
 		DC68B42117ECB3CA00563A30 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = DC8B560D17CBF10F00F95CBC /* KoboldKitExternal.xcodeproj */;
@@ -215,7 +213,6 @@
 			remoteGlobalIDString = DC484C42178C40BB0067DAA4;
 			remoteInfo = OpenGW.framework;
 		};
->>>>>>> refs/heads/KK-Free-master
 		DC8B561517CBF10F00F95CBC /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = DC8B560A17CBF10F00F95CBC /* KoboldKitCommunity.xcodeproj */;
@@ -792,10 +789,7 @@
 			children = (
 				DC8B561C17CBF10F00F95CBC /* libKoboldKitExternal.a */,
 				DC8B561E17CBF10F00F95CBC /* KoboldKitExternal.framework */,
-<<<<<<< HEAD
-=======
 				DC68B42217ECB3CA00563A30 /* libKoboldKitExternal.a Tests.xctest */,
->>>>>>> refs/heads/KK-Free-master
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -956,10 +950,7 @@
 			buildRules = (
 			);
 			dependencies = (
-<<<<<<< HEAD
-=======
 				DC6C8F9317F1ED9F00EA5160 /* PBXTargetDependency */,
->>>>>>> refs/heads/KK-Free-master
 				DCE361BB17D22897008F940E /* PBXTargetDependency */,
 				DCE361B917D22893008F940E /* PBXTargetDependency */,
 				DC5AA88D17CD0D770001940A /* PBXTargetDependency */,
@@ -980,10 +971,7 @@
 			buildRules = (
 			);
 			dependencies = (
-<<<<<<< HEAD
-=======
 				DC6C8F8E17F1ED9800EA5160 /* PBXTargetDependency */,
->>>>>>> refs/heads/KK-Free-master
 				DCE361B717D2288F008F940E /* PBXTargetDependency */,
 				DCE361B117D2288C008F940E /* PBXTargetDependency */,
 				DC5AA88517CD0D6D0001940A /* PBXTargetDependency */,
@@ -1040,8 +1028,6 @@
 /* End PBXProject section */
 
 /* Begin PBXReferenceProxy section */
-<<<<<<< HEAD
-=======
 		DC68B42217ECB3CA00563A30 /* libKoboldKitExternal.a Tests.xctest */ = {
 			isa = PBXReferenceProxy;
 			fileType = wrapper.cfbundle;
@@ -1049,7 +1035,6 @@
 			remoteRef = DC68B42117ECB3CA00563A30 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
->>>>>>> refs/heads/KK-Free-master
 		DC8B561617CBF10F00F95CBC /* libKoboldKitCommunity.a */ = {
 			isa = PBXReferenceProxy;
 			fileType = archive.ar;
@@ -1248,8 +1233,6 @@
 			name = KoboldKitExternal.framework;
 			targetProxy = DC5AA88C17CD0D770001940A /* PBXContainerItemProxy */;
 		};
-<<<<<<< HEAD
-=======
 		DC6C8F8E17F1ED9800EA5160 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = libOpenGW.a;
@@ -1260,7 +1243,6 @@
 			name = OpenGW.framework;
 			targetProxy = DC6C8F9217F1ED9F00EA5160 /* PBXContainerItemProxy */;
 		};
->>>>>>> refs/heads/KK-Free-master
 		DCE361B117D2288C008F940E /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = libKoboldKitCommunity.a;
@@ -1322,14 +1304,7 @@
 		DC484C88178C418D0067DAA4 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-<<<<<<< HEAD
-				ARCHS = (
-					armv7,
-					armv7s,
-				);
-=======
 				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
->>>>>>> refs/heads/KK-Free-master
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
@@ -1339,35 +1314,20 @@
 				PUBLIC_HEADERS_FOLDER_PATH = "include/$(PRODUCT_NAME)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-<<<<<<< HEAD
-				VALID_ARCHS = "armv7 armv7s";
-=======
 				VALID_ARCHS = "armv7 armv7s arm64";
->>>>>>> refs/heads/KK-Free-master
 			};
 			name = Debug;
 		};
 		DC484C89178C418D0067DAA4 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-<<<<<<< HEAD
-				ARCHS = (
-					armv7,
-					armv7s,
-				);
-=======
 				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
->>>>>>> refs/heads/KK-Free-master
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = KoboldKit;
 				PUBLIC_HEADERS_FOLDER_PATH = "include/$(PRODUCT_NAME)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-<<<<<<< HEAD
-				VALID_ARCHS = "armv7 armv7s";
-=======
 				VALID_ARCHS = "armv7 armv7s arm64";
->>>>>>> refs/heads/KK-Free-master
 			};
 			name = Release;
 		};
@@ -1394,10 +1354,6 @@
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_ENABLE_CPP_EXCEPTIONS = NO;
 				GCC_ENABLE_CPP_RTTI = NO;
-<<<<<<< HEAD
-				GCC_ENABLE_OBJC_EXCEPTIONS = NO;
-=======
->>>>>>> refs/heads/KK-Free-master
 				GCC_FAST_MATH = YES;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
@@ -1451,10 +1407,6 @@
 				GCC_C_LANGUAGE_STANDARD = c11;
 				GCC_ENABLE_CPP_EXCEPTIONS = NO;
 				GCC_ENABLE_CPP_RTTI = NO;
-<<<<<<< HEAD
-				GCC_ENABLE_OBJC_EXCEPTIONS = NO;
-=======
->>>>>>> refs/heads/KK-Free-master
 				GCC_FAST_MATH = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "KoboldKit-Prefix.pch";
